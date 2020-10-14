@@ -20,9 +20,7 @@ describe('render', () => {
     describe('word has not been guessed', () => {
         let wrapper
         beforeEach(() => {
-            // TODO: FIX THE BUG
-            // const initialState = {success: false}
-            const initialState = {}
+            const initialState = {success: false}
             wrapper = setup(initialState)
         })
         test('renders component without error', () => {
@@ -30,28 +28,36 @@ describe('render', () => {
             expect(component.length).toBe(1)
         })
 
-        // test('renders input box', () => {
-        //     const inputBox = findByTestAttr(wrapper, 'input-box')
-        //     expect(inputBox.length).toBe(1)
-        // })
+        test('renders input box', () => {
+            const inputBox = findByTestAttr(wrapper, 'input-box')
+            expect(inputBox.length).toBe(1)
+        })
         
-        // test('renders submit button', () => {
-        //     const submitBox = findByTestAttr(wrapper, 'submit-box')
-        //     expect(submitBox.length).toBe(1)
-        // })
+        test('renders submit button', () => {
+            const submitBox = findByTestAttr(wrapper, 'submit-button')
+            expect(submitBox.length).toBe(1)
+        })
     })
 
     describe('word has been guessed', () => {
+        let wrapper 
+        beforeEach(() => {
+            const initialState = { success: true }
+            wrapper = setup(initialState)
+        })
         test('renders component without error', () => {
-            
+            const component = findByTestAttr(wrapper, 'component-input')
+            expect(component.length).toBe(1)
         })
 
         test('does not renders input box', () => {
-            
+            const inputBox = findByTestAttr(wrapper, 'input-box')
+            expect(inputBox.length).toBe(0)
         })
         
         test('does not renders submit button', () => {
-            
+            const submit = findByTestAttr(wrapper, 'submit-button')
+            expect(submit.length).toBe(0)
         })
     })
 })
