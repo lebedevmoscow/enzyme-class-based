@@ -1,0 +1,83 @@
+[33mcommit ba5fb20e0ed15efee4f734fe68648e6bd1a77723[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Thu Oct 15 00:31:32 2020 +0500
+
+    Set up Input component and astoreFactory test utils
+
+[33mcommit e69042727c5cb0fdd63a098b5df85277b19ddd6b[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 23:40:04 2020 +0500
+
+    Write code and tests for successReducer
+
+[33mcommit a08f69c409064cb80c9dc8326cc155bbc7e9c7dd[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 23:30:40 2020 +0500
+
+    Add CORRECT_GUESS action creator and tests
+
+[33mcommit 9042bb51c6dc869ee6d9eadaa510939d7a8fffa6[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 23:21:38 2020 +0500
+
+    Set up Redux
+
+[33mcommit 0b53c9e3749a322ead558098ae4766980f9eafd4[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 23:10:40 2020 +0500
+
+    Add getLetterMatchCount helper function
+
+[33mcommit 7c52b4cb8ebcdb4c2997475e25eecfc2581294a7[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 22:55:32 2020 +0500
+
+    Add bootstrap styling
+
+[33mcommit bd7709fad0216871192fde9ce41e3da2d9a7779f[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 22:45:45 2020 +0500
+
+    Add congrats and guessedwords components into app component
+
+[33mcommit 480174d7acd062876d170c1b5f147482905a2de9[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 22:40:47 2020 +0500
+
+    Continue working on GuessedWords component
+
+[33mcommit 795357ea5c7a17118836e7560aa3c17edd66a4c8[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 16:36:07 2020 +0500
+
+    Add GuessedWords component and tests for him
+
+[33mcommit 185eafdcf66af3f6ba4585d671b504f20e2a411a[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 16:05:36 2020 +0500
+
+    Add setupTest file
+
+[33mcommit 75d2d8ed6d7a48a048a05b5366e565360072a815[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Wed Oct 14 15:52:29 2020 +0500
+
+    Add PropTypes
+
+[33mcommit e60183eda53b8ab33f67e4cef251bbfbc1e6acc1[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Tue Oct 13 17:44:38 2020 +0500
+
+    Add Congrats component
+
+[33mcommit a88ddb703c1c126c1eefbee6612a2f06d5eead5f[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Tue Oct 13 17:38:35 2020 +0500
+
+    Add some test (but not add the component for them itslef
+
+[33mcommit a736e6259beed6ccc840f8cb234adb603958277c[m
+Author: Lebedev Boris <lebedev.moscow.me@gmail.com>
+Date:   Tue Oct 13 01:23:29 2020 +0500
+
+    Add base project structure
